@@ -4,6 +4,13 @@ A hardcore action game about revenge and progression. The main character cleans 
 
 **🎮 Play the latest demo:** [https://name-surename.itch.io/]
 
+## 🎯 Design & Concept
+**Game:** Death Style (데스 스타일)  
+**Genre:** 2D Action Roguelike (2D 액션 로그라이크)  
+**Subgenres:** Psychological Horror-Action, Progression-based Action, Story-Driven Action.  
+**Synopsis:** An obsessed avenger, trapped in a time loop of the day he exacts revenge on a gang of killers, utilizes a style inherited from his lineage—the Death Style.  
+*(시놉시스: 살인자 갱단에게 복수하는 날이 반복되는 시간 고리에 갇힌, 집념에 가득 찬 복수자. 그는 자신의 혈통에서 이어받은 전투 스타일, '죽음의 스타일'을 사용한다.)*
+
 ## 📁 Project Details
 *   **Engine:** [Godot]
 *   **Language:** [GDScript]
