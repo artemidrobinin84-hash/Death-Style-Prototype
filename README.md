@@ -1,5 +1,6 @@
 # Death Style — Game Prototype / 데스 스타일 — 게임 프로토타입
-
+https://t.me/KoreaCultureKGSP
+https://t.me/DeathStyleGame
 **Core mechanic:** Rage-based progression system for fast-paced action.  
 **핵심 메커니즘:** 빠른 전투 액션 게임을 위한 분노 기반 성장 시스템.
 
