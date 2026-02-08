@@ -1,103 +1,50 @@
-# Death Style — Game Prototype / 데스 스타일 — 게임 프로토타입
-https://t.me/KoreaCultureKGSP
-https://t.me/DeathStyleGame
-**Core mechanic:** Rage-based progression system for fast-paced action.  
-**핵심 메커니즘:** 빠른 전투 액션 게임을 위한 분노 기반 성장 시스템.
+Death Style
+Top-down action shooter inspired by Hotline Miami, built with Godot 4.6 and Aseprite-style pixel art. Play as a hero who uses the "Death Style" ability to resurrect after each death, clearing buildings in a relentless quest for vengeance.
 
----
+Death Style - Hotline Miami에서 영감을 받은 탑다운 액션 슈터 게임으로, Godot 4.6과 Aseprite 스타일 픽셀 아트로 제작되었습니다. "데스 스타일" 능력을 사용해 매번 죽음 후 부활하며, 건물을 청소하며 복수를 추구하는 영웅의 이야기입니다.
 
-## 📊 Development Status / 개발 현황
+✨ Features / 특징
+Death Style Mechanic - Respawn with knowledge of enemy positions
 
-| English | 한국어 |
-|---------|--------|
-| **Version:** Pre-Alpha 0.1 | **버전:** 프리-알파 0.1 |
-| **Platform:** Windows (Godot 4) | **플랫폼:** Windows (Godot 4) |
-| **Last Updated:** February 2026 | **최근 업데이트:** 2026년 2월 |
+Fast-Paced Combat - Brutal top-down shooter action
 
----
+Tactical Gameplay - Plan your approach to clear each room
 
-## ✅ Implemented / 구현 완료
-- Godot 4 project setup / Godot 4 프로젝트 설정
-- Basic scene structure / 기본 씬 구조
-- Main menu UI framework / 메인 메뉴 UI 프레임워크
-- Input mapping foundation / 입력 매핑 기초
+Retro Pixel Art - Detailed environments in Aseprite style
 
-## 🚧 In Development / 개발 중
-- Player movement controller / 플레이어 이동 컨트롤러
-- Basic combat system / 기본 전투 시스템
-- Rage/Death Style mechanic prototype / 분노/데스 스타일 메커니즘 프로토타입
+데스 스타일 메커니즘 - 적 위치 지식과 함께 리스폰
 
----
+빠른 전투 - 잔인한 탑다운 슈터 액션
 
-## 🔧 Tech Stack / 기술 스택
+전술적 게임플레이 - 각 방 청소를 위한 접근법 계획
 
-| Component / 구성 요소 | Technology / 기술 |
-|----------------------|-------------------|
-| Game Engine / 게임 엔진 | Godot 4.6 |
-| Scripting / 스크립팅 | GDScript |
-| Art / 아트 | Pixel art (Aseprite) / 픽셀 아트 (Aseprite) |
-| Version Control / 버전 관리 | Git + GitHub |
+레트로 픽셀 아트 - Aseprite 스타일의 디테일한 환경
 
----
+🚧 Development Status / 개발 현황
+Current Focus / 현재 작업:
 
-## 🎮 Controls (Design Spec) / 컨트롤 (설계 사양)
+Core Death Style resurrection system
 
-| Action / 동작 | Keybind / 키 |
-|--------------|-------------|
-| Move / 이동 | WASD |
-| Attack / 공격 | Left Mouse / 왼쪽 마우스 |
-| Jump / 점프 | Space / 스페이스 |
-| Rage Mode / 분노 모드 | R |
-| Interact / 상호작용 | E |
+Enemy AI and combat mechanics
 
----
+First building level design
 
-## 🎯 Project Goals / 프로젝트 목표
+데스 스타일 부활 시스템 코어 개발
+적 AI 및 전투 메커니즘
+첫 건물 레벨 디자인
 
-1. **기능적 프로토타입 제작** — 분노 기반 성장 시스템 시연  
-   Create functional prototype demonstrating rage-based progression system
+🛠 Tech Stack / 기술 스택
+Engine / 엔진: Godot 4.6
 
-2. **포트폴리오 구축** — 게임 개발 장학금 지원용  
-   Build portfolio piece for game development scholarship applications
+Graphics / 그래픽: Aseprite-style pixel art
 
-3. **혁신적 메커니즘 탐구** — 반복적 개발을 통한 실험  
-   Explore innovative combat mechanics through iterative development
+Language / 언어: GDScript
 
----
-
-## 🚀 Getting Started / 시작하기
-
-
-# Clone repository / 저장소 복제
-git clone https://github.com/artemidrobinin84-hash/Death-Style-Prototype.git
-Open in Godot 4.6+ / Godot 4.6+에서 열기
-File → Open → project.godot 선택
+Platform / 플랫폼: Windows (Linux/macOS planned)
 
 🔗 Links / 링크
-Resource / 자료	Link / 링크
-Live Demo / 실시간 데모	Coming soon on itch.io
-Developer Portfolio / 개발자 포트폴리오	https://name-surename.itch.io/
-Issue Tracker / 이슈 트래커	GitHub Issues
-🌏 About the Developer / 개발자 정보
-Active Projects & Channels:
+Itch.io Page: https://name-surename.itch.io/
 
-🎮 Death Style Game Prototype: GitHub Repository | Development Log (Telegram)
+Game Telegram: https://t.me/DeathStyleGame
 
-🇰🇷 Korean Culture & Language Channel: Telegram – Exploring Korea's tech and culture as part of KGSP preparation.
-
-Artem (Артём)
-Game Developer & KGSP Scholarship Applicant
-게임 개발자 & KGSP 장학금 지원자
-
-Motivation / 동기:
-Creating cross-cultural game experiences between Russia and Korea.
-러시아와 한국 간의 크로스컬처 게임 경험 창조.
-
-Language Study / 언어 학습:
-Currently learning Korean (Target: TOPIK Level 4)
-현재 한국어 학습 중 (목표: TOPIK 4급)
-
-License / 라이선스: This project is part of a portfolio for educational purposes (KGSP scholarship application).
-이 프로젝트는 교육적 목적(KGSP 장학금 지원)의 포트폴리오 일부입니다.
-
-"Balance your rage, master your style." / "분노를 조절하고, 스타일을 마스터하라."
+Dev Telegram: https://t.me/KoreaCultureKGSP
