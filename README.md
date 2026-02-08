@@ -80,7 +80,7 @@ Death-Style-Prototype/
 
 ## 🚀 Getting Started / 시작하기
 
-```bash
+
 # Clone repository / 저장소 복제
 git clone https://github.com/artemidrobinin84-hash/Death-Style-Prototype.git
 
