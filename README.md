@@ -82,8 +82,6 @@ Weapon variety system / 무기 다양성 시스템
 Advanced level design / 고급 레벨 디자인
 Story implementation / 스토리 구현
 🛠️ Built With / 사용 기술
-https://img.shields.io/badge/Godot-4.6-478CBF?logo=godotengine&logoColor=white
-https://img.shields.io/badge/GDScript-%E2%9C%93-478CBF?logo=godotengine&logoColor=white
 Pixel Art created in Aseprite style / Aseprite 스타일로 제작된 픽셀 아트
 
 📄 License / 라이선스
