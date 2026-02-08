@@ -1,6 +1,6 @@
 # Death Style — Game Prototype / 데스 스타일 — 게임 프로토타입
 
-**Core mechanic:** Rage-based progression system for fast-paced action.
+**Core mechanic:** Rage-based progression system for fast-paced action.  
 **핵심 메커니즘:** 빠른 전투 액션 게임을 위한 분노 기반 성장 시스템.
 
 ---
@@ -64,17 +64,6 @@
 
 ---
 
-## 📁 Repository Structure / 저장소 구조
-
-Death-Style-Prototype/
-├── assets/ # 게임 에셋 (스프라이트, 사운드, 폰트)
-├── scenes/ # Godot 씬 파일 (.tscn)
-├── scripts/ # GDScript 모듈
-│ ├── player/ # 플레이어 컨트롤러
-│ ├── enemies/ # AI 및 전투 시스템
-│ └── ui/ # 인터페이스
-├── docs/ # 설계 문서 (계획중)
-└── exports/ # 빌드 출력물 (gitignore)
 
 ---
 
@@ -92,9 +81,12 @@ Live Demo / 실시간 데모	Coming soon on itch.io
 Developer Portfolio / 개발자 포트폴리오	https://name-surename.itch.io/
 Issue Tracker / 이슈 트래커	GitHub Issues
 🌏 About the Developer / 개발자 정보
-**Active Projects & Channels:**
-- 🎮 **Death Style Game Prototype:** [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype) | [Development Log (Telegram)](t.me/DeathStyleGame)  
-- 🇰🇷 **Korean Culture & Language Channel:** [Telegram](t.me/KoreaCultureKGSP) – Exploring Korea's tech and culture as part of KGSP preparation.
+Active Projects & Channels:
+
+🎮 Death Style Game Prototype: GitHub Repository | Development Log (Telegram)
+
+🇰🇷 Korean Culture & Language Channel: Telegram – Exploring Korea's tech and culture as part of KGSP preparation.
+
 Artem (Артём)
 Game Developer & KGSP Scholarship Applicant
 게임 개발자 & KGSP 장학금 지원자
