@@ -91,6 +91,9 @@ This project is currently under development. All rights reserved.
 이 프로젝트는 현재 개발 중입니다. 모든 권리 보유.
 
 🔗 Links & Community / 링크 및 커뮤니티
+https://name-surename.itch.io/
+https://t.me/DeathStyleGame
+https://t.me/KoreaCultureKGSP
 "They can kill me a thousand times. I'll keep coming back."
 "그들은 나를 천 번 죽일 수 있어. 난 계속 돌아올 테니까."
 
