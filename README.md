@@ -81,9 +81,9 @@ Live Demo / 실시간 데모	Coming soon on itch.io
 Developer Portfolio / 개발자 포트폴리오	https://name-surename.itch.io/
 Issue Tracker / 이슈 트래커	GitHub Issues
 🌏 About the Developer / 개발자 정보
-**Active Projects & Channels:**
-- 🎮 **Death Style Game Prototype:** [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype) | [Development Log (Telegram)](t.me/DeathStyleGame)  
-- 🇰🇷 **Korean Culture & Language Channel:** [Telegram](t.me/KoreaCultureKGSP) – Exploring Korea's tech and culture as part of KGSP preparation.
+Active Projects & Channels:
+- 🎮 Death Style Game Prototype: [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype) | [Development Log (Telegram)](t.me/DeathStyleGame)  
+- 🇰🇷 Korean Culture & Language Channel: [Telegram](t.me/KoreaCultureKGSP) – Exploring Korea's tech and culture as part of KGSP preparation.
 Artem (Артём)
 Game Developer & KGSP Scholarship Applicant
 게임 개발자 & KGSP 장학금 지원자
