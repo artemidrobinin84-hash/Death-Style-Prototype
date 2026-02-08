@@ -81,22 +81,25 @@ Live Demo / 실시간 데모	Coming soon on itch.io
 Developer Portfolio / 개발자 포트폴리오	https://name-surename.itch.io/
 Issue Tracker / 이슈 트래커	GitHub Issues
 🌏 About the Developer / 개발자 정보
-Active Projects & Channels:
-- 🎮 Death Style Game Prototype: [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype) | [Development Log (Telegram)](t.me/DeathStyleGame)  
-- 🇰🇷 Korean Culture & Language Channel: [Telegram](t.me/KoreaCultureKGSP) – Exploring Korea's tech and culture as part of KGSP preparation.
-Artem (Артём)
-Game Developer & KGSP Scholarship Applicant
+
+**Active Projects & Channels:**
+- 🎮 **Death Style Game Prototype:** [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype) | [Development Log (Telegram)](https://t.me/DeathStyleGame)
+- 🇰🇷 **Korean Culture & Language Channel:** [Telegram](https://t.me/KoreaCultureKGSP) – Exploring Korea's tech and culture as part of KGSP preparation.
+
+**Artem (Артём)**  
+Game Developer & KGSP Scholarship Applicant  
 게임 개발자 & KGSP 장학금 지원자
 
-Motivation / 동기:
-Creating cross-cultural game experiences between Russia and Korea.
+**Motivation / 동기:**  
+Creating cross-cultural game experiences between Russia and Korea.  
 러시아와 한국 간의 크로스컬처 게임 경험 창조.
 
-Language Study / 언어 학습:
-Currently learning Korean (Target: TOPIK Level 4)
+**Language Study / 언어 학습:**  
+Currently learning Korean (Target: TOPIK Level 4)  
 현재 한국어 학습 중 (목표: TOPIK 4급)
 
-License / 라이선스: This project is part of a portfolio for educational purposes (KGSP scholarship application).
+**License / 라이선스:** This project is part of a portfolio for educational purposes (KGSP scholarship application).  
 이 프로젝트는 교육적 목적(KGSP 장학금 지원)의 포트폴리오 일부입니다.
 
-"Balance your rage, master your style." / "분노를 조절하고, 스타일을 마스터하라."
+*"Balance your rage, master your style." / "분노를 조절하고, 스타일을 마스터하라."*
+
