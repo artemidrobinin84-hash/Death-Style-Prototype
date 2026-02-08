@@ -1,93 +1,110 @@
-# Death Style — Game Prototype | 데스 스타일 — 게임 프로토타입
+# Death Style — Game Prototype / 데스 스타일 — 게임 프로토타입
 
-**A unique action-roguelike prototype currently in its foundational stage, built for portfolio and academic development.**
-**(포트폴리오 및 학업 발전을 위해 제작된, 기초 단계에 있는 독특한 액션 로그라이크 프로토타입입니다.)**
-
-**🎮 Play the Latest Demo:** [https://name-surename.itch.io/](https://name-surename.itch.io/)  
-**🎮 최신 데모 플레이:** [https://name-surename.itch.io/](https://name-surename.itch.io/)
+**Core mechanic:** Rage-based progression system for fast-paced action.
+**핵심 메커니즘:** 빠른 전투 액션 게임을 위한 분노 기반 성장 시스템.
 
 ---
 
-## 🧠 Concept & Vision | 컨셉과 비전
+## 📊 Development Status / 개발 현황
 
-**Game | 게임:** Death Style (데스 스타일)  
-**Core Genre | 핵심 장르:** 2D Action Roguelike with a "Progression-through-Death" mechanic.  
-**Core Genre | 핵심 장르:** "죽음을 통한 성장" 메커니즘이 있는 2D 액션 로그라이크.  
-**Target Experience | 목표 경험:** A fast-paced, challenging game where each failure makes the player character permanently stronger, blending psychological tension with strategic progression.  
-**Target Experience | 목표 경험:** 실패할 때마다 주인공이 영구적으로 강해지는 빠르고 도전적인 게임으로, 심리적 긴장감과 전략적 성장을 결합합니다.
-
-**Synopsis (Planned) | 시놉시스 (구상):**  
-An avenger, trapped in a time loop of his final day, masters the "Death Style" – a combat technique that turns each death into a lesson and a source of power.  
-복수의 날에 갇힌 복수자가 '데스 스타일'을 마스터합니다. 이 전투 기술은 각각의 죽음을 교훈이자 힘의 원천으로 바꿉니다.
+| English | 한국어 |
+|---------|--------|
+| **Version:** Pre-Alpha 0.1 | **버전:** 프리-알파 0.1 |
+| **Platform:** Windows (Godot 4) | **플랫폼:** Windows (Godot 4) |
+| **Last Updated:** February 2026 | **최근 업데이트:** 2026년 2월 |
 
 ---
 
-## ⚙️ Project Status & Tech Stack | 프로젝트 현황 및 기술 스택
+## ✅ Implemented / 구현 완료
+- Godot 4 project setup / Godot 4 프로젝트 설정
+- Basic scene structure / 기본 씬 구조
+- Main menu UI framework / 메인 메뉴 UI 프레임워크
+- Input mapping foundation / 입력 매핑 기초
 
-*   **Current Phase | 현재 단계:** **Pre-Alpha / Foundation.** Actively developing core systems.  
-*   **Current Phase | 현재 단계:** **프리-알파 / 기초.** 핵심 시스템을 적극적으로 개발 중입니다.
-*   **Latest Milestone | 최근 이정표:** **Interactive main menu implemented.**  
-*   **Latest Milestone | 최근 이정표:** **인터랙티브 메인 메뉴 구현 완료.**
-*   **Engine | 엔진:** Godot 4
-*   **Primary Language | 주요 언어:** GDScript
-*   **Development | 개발:** Solo Developer (Programming, Design) | 개인 개발자 (프로그래밍, 설계)
-
----
-
-## 🗺️ Development Roadmap (Current Focus) | 개발 로드맵 (현재 초점)
-
-The project is being built step-by-step, focusing on a solid foundation.
-프로젝트는 탄탄한 기초에 중점을 두고 단계별로 구축되고 있습니다.
-
-| Version | 목표 | Status | 주요 작업 |
-| :--- | :--- | :--- | :--- |
-| **v0.1** | **Project Foundation & UI** | **✅ COMPLETED** | Godot 프로젝트 설정, 기본 메인 메뉴 UI 및 네비게이션 구현. |
-| **v0.2** | **Core Gameplay Loop** | **🔜 IN PROGRESS / NEXT** | 기본 플레이어 조작, 이동, 1개 방 및 적 구현. 첫 번째 "죽음-성장" 사이클 테스트. |
-| **v0.3** | **"Death Style" System** | **PLANNED** | 죽음 후 강화를 관리하는 핵심 스킬/특성 시스템 프로토타입 구현. |
-| **v0.4+** | **Content & Polish** | **FUTURE** | 추가 방, 적 종류, 프로시저럴 생성, 밸런스, 사운드, 비주얼 효과. |
+## 🚧 In Development / 개발 중
+- Player movement controller / 플레이어 이동 컨트롤러
+- Basic combat system / 기본 전투 시스템
+- Rage/Death Style mechanic prototype / 분노/데스 스타일 메커니즘 프로토타입
 
 ---
 
-## 🚀 How to Run / Build | 실행 및 빌드 방법
+## 🔧 Tech Stack / 기술 스택
 
-This guide is for developers who wish to explore the project source code in Godot.
-이 가이드는 Godot에서 프로젝트 소스 코드를 살펴보고 싶은 개발자를 위한 것입니다.
-
-1.  **Prerequisites | 필수 조건:** Install [Godot Engine 4.x](https://godotengine.org/download).
-2.  **Clone the Repository | 저장소 복제:**  
-    `git clone https://github.com/artemidrobinin84-hash/Death-Style-Prototype.git`
-3.  **Open in Godot | Godot에서 열기:** Launch Godot, click "Import", and select the `project.godot` file in the cloned folder.
-4.  **Run | 실행:** Click the "Play" button in the top-right corner to start the main menu.
-
-*(A playable Web/Desktop build will be linked here in future releases.)*  
-*(실행 가능한 웹/데스크톱 빌드는 향후 릴리스에서 여기에 링크될 예정입니다.)*
+| Component / 구성 요소 | Technology / 기술 |
+|----------------------|-------------------|
+| Game Engine / 게임 엔진 | Godot 4.2 |
+| Scripting / 스크립팅 | GDScript |
+| Art / 아트 | Pixel art (Aseprite) / 픽셀 아트 (Aseprite) |
+| Version Control / 버전 관리 | Git + GitHub |
 
 ---
 
-## 📁 Repository Contents | 저장소 내용
+## 🎮 Controls (Design Spec) / 컨트롤 (설계 사양)
 
-*   `/Death style/` - Primary Godot project scene and script files. (기본 Godot 프로젝트 씬 및 스크립트 파일)
-*   `README.md` - This documentation file. (이 문서 파일)
-*   `DESIGN_DOCUMENT_V0.1` - Initial game design concepts. (초기 게임 디자인 개념)
-*   `.gitignore`, `.editorconfig` - Standard development configuration files.
-
----
-
-## 🎯 Purpose of This Repository | 본 저장소의 목적
-
-This repository serves as:
-본 저장소는 다음을 목적으로 합니다:
-
-1.  **A Portfolio Piece | 포트폴리오 자료:** To demonstrate foundational game development skills, project structuring, and iterative development process to academic institutions (e.g., Korean universities with game development programs).
-2.  **A Learning Log | 학습 기록:** To track progress, version changes, and design decisions throughout the development journey.
-3.  **A Foundation for Growth | 성장의 기반:** To build a functional prototype that can be expanded into a full game.
+| Action / 동작 | Keybind / 키 |
+|--------------|-------------|
+| Move / 이동 | WASD |
+| Attack / 공격 | Left Mouse / 왼쪽 마우스 |
+| Jump / 점프 | Space / 스페이스 |
+| Rage Mode / 분노 모드 | R |
+| Interact / 상호작용 | E |
 
 ---
 
-## 📬 Contact & Links | 연락처 및 링크
+## 🎯 Project Goals / 프로젝트 목표
 
-This project is developed by **artemidrobinin84-hash** as part of a journey into game development and digital media creation.
-이 프로젝트는 게임 개발 및 디지털 미디어 제작 여정의 일환으로 **artemidrobinin84-hash**가 개발하고 있습니다.
+1. **기능적 프로토타입 제작** — 분노 기반 성장 시스템 시연  
+   Create functional prototype demonstrating rage-based progression system
 
-*   **Portfolio & Demos | 포트폴리오 및 데모:** [Itch.io Page](https://name-surename.itch.io/)
-*   **Source Code | 소스 코드:** [GitHub Repository](https://github.com/artemidrobinin84-hash/Death-Style-Prototype)
+2. **포트폴리오 구축** — 게임 개발 장학금 지원용  
+   Build portfolio piece for game development scholarship applications
+
+3. **혁신적 메커니즘 탐구** — 반복적 개발을 통한 실험  
+   Explore innovative combat mechanics through iterative development
+
+---
+
+## 📁 Repository Structure / 저장소 구조
+
+Death-Style-Prototype/
+├── assets/ # 게임 에셋 (스프라이트, 사운드, 폰트)
+├── scenes/ # Godot 씬 파일 (.tscn)
+├── scripts/ # GDScript 모듈
+│ ├── player/ # 플레이어 컨트롤러
+│ ├── enemies/ # AI 및 전투 시스템
+│ └── ui/ # 인터페이스
+├── docs/ # 설계 문서 (계획중)
+└── exports/ # 빌드 출력물 (gitignore)
+
+---
+
+## 🚀 Getting Started / 시작하기
+
+```bash
+# Clone repository / 저장소 복제
+git clone https://github.com/artemidrobinin84-hash/Death-Style-Prototype.git
+
+# Open in Godot 4.6+ / Godot 4.6+에서 열기
+# File → Open → project.godot 선택
+🔗 Links / 링크
+Resource / 자료	Link / 링크
+Live Demo / 실시간 데모	Coming soon on itch.io
+Developer Portfolio / 개발자 포트폴리오	https://artemidrobinin84.itch.io
+Issue Tracker / 이슈 트래커	GitHub Issues
+🌏 About the Developer / 개발자 정보
+Artem (Артём)
+Game Developer & KGSP Scholarship Applicant
+게임 개발자 & KGSP 장학금 지원자
+
+Motivation / 동기:
+Creating cross-cultural game experiences between Russia and Korea.
+러시아와 한국 간의 크로스컬처 게임 경험 창조.
+
+Language Study / 언어 학습:
+Currently learning Korean (Target: TOPIK Level 4)
+현재 한국어 학습 중 (목표: TOPIK 4급)
+
+License / 라이선스: This project is part of a portfolio for educational purposes (KGSP scholarship application).
+이 프로젝트는 교육적 목적(KGSP 장학금 지원)의 포트폴리오 일부입니다.
+
+"Balance your rage, master your style." / "분노를 조절하고, 스타일을 마스터하라."
