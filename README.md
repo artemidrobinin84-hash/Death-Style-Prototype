@@ -72,8 +72,10 @@ Pause: ESC
 Now in active development! / 현재 적극적으로 개발 중입니다!
 
 Status / 상태	Feature / 기능
-✅ Completed / 완료됨	Game menu / 게임 메뉴
-🔨 Currently Working On / 현재 작업 중	Death Style resurrection mechanics / 데스 스타일 부활 메커니즘
+✅ Completed / 완료됨
+Game menu / 게임 메뉴
+🔨 Currently Working On / 현재 작업 중
+Death Style resurrection mechanics / 데스 스타일 부활 메커니즘
 Enemy AI behaviors / 적 AI 행동
 First playable building level / 첫 플레이 가능 빌딩 레벨
 Combat and weapon systems / 전투 및 무기 시스템
