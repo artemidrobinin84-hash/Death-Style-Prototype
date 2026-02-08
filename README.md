@@ -32,7 +32,7 @@
 
 | Component / 구성 요소 | Technology / 기술 |
 |----------------------|-------------------|
-| Game Engine / 게임 엔진 | Godot 4.2 |
+| Game Engine / 게임 엔진 | Godot 4.6 |
 | Scripting / 스크립팅 | GDScript |
 | Art / 아트 | Pixel art (Aseprite) / 픽셀 아트 (Aseprite) |
 | Version Control / 버전 관리 | Git + GitHub |
