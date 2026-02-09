@@ -1,5 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770645562
+::res://::1770663294
+README.md::TextFile::-1::1770647823::0::1::::<><><>0<>0<><>::
 ::res://Game/::1770571117
 game.tscn::PackedScene::848831411308291965::1770571117::0::1::::<><><>0<>0<><>::
 ::res://Image/::1770645570
@@ -8,6 +9,7 @@ Menu.jpg::CompressedTexture2D::4840367877043850984::1770571241::1770571242::1:::
 Play.jpg::CompressedTexture2D::4703619710581403836::1770571241::1770571242::1::::<><><>0<>0<>5b7a5c02f806f6dba9b087b4c66b06ec<>res://.godot/imported/Play.jpg-2a88c6a74172880d1914b4a27f62f73e.ctex::
 Settings2.jpg::CompressedTexture2D::2485924354161007875::1770571241::1770571242::1::::<><><>0<>0<>86851189c3e54c606b9cf8f8604c78d5<>res://.godot/imported/Settings2.jpg-da5e8f6176cc7e916aa8a8f6d5220281.ctex::
 Support.jpg::CompressedTexture2D::7532547399621225256::1770571241::1770571242::1::::<><><>0<>0<>5cc24bc33b9e7b0df4c7f51872cde862<>res://.godot/imported/Support.jpg-ab5d21e3509c2e73d5b690e5261ebb6b.ctex::
-::res://Menu/::1770571326
-menu.tscn::PackedScene::3838282472225712928::1770571326::0::1::::<><><>0<>0<><>::uid://ca7yffok0bbw7::::res://Image/Menu.jpg<>uid://bbog2tog3btx8::::res://Image/Settings2.jpg<>uid://dfk27qfldciiy::::res://Image/Support.jpg<>uid://b8ap6uofg6gfc::::res://Image/Play.jpg
-::res://scripts/::1770568142
+::res://Menu/::1770646799
+menu.tscn::PackedScene::3838282472225712928::1770646799::0::1::::<><><>0<>0<><>::uid://ca7yffok0bbw7::::res://Image/Menu.jpg<>uid://bbog2tog3btx8::::res://Image/Settings2.jpg<>uid://dfk27qfldciiy::::res://Image/Support.jpg<>uid://b8ap6uofg6gfc::::res://Image/Play.jpg<>uid://bsb03muwnb06j::::res://Image/Exit.jpg<>uid://b1pk3ehrdlbhn::::res://scripts/exit.gd
+::res://scripts/::1770646799
+exit.gd::GDScript::4242953678433717863::1770646799::0::1::::<>TextureButton<><>0<>0<><>::
