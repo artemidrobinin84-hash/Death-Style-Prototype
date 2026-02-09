@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770645562
+::res://Game/::1770571117
+game.tscn::PackedScene::848831411308291965::1770571117::0::1::::<><><>0<>0<><>::
+::res://Image/::1770645570
+Exit.jpg::CompressedTexture2D::3653452836173553443::1770645570::1770645570::1::::<><><>0<>0<>0f4d1b30396e4b6e8d0dc6408e13036f<>res://.godot/imported/Exit.jpg-917385ceac0856252766fbd88dc2503a.ctex::
+Menu.jpg::CompressedTexture2D::4840367877043850984::1770571241::1770571242::1::::<><><>0<>0<>faea14eeaf30c820a9b8afe471b40592<>res://.godot/imported/Menu.jpg-809f72eb1f66c1018829b43c5dd68661.ctex::
+Play.jpg::CompressedTexture2D::4703619710581403836::1770571241::1770571242::1::::<><><>0<>0<>5b7a5c02f806f6dba9b087b4c66b06ec<>res://.godot/imported/Play.jpg-2a88c6a74172880d1914b4a27f62f73e.ctex::
+Settings2.jpg::CompressedTexture2D::2485924354161007875::1770571241::1770571242::1::::<><><>0<>0<>86851189c3e54c606b9cf8f8604c78d5<>res://.godot/imported/Settings2.jpg-da5e8f6176cc7e916aa8a8f6d5220281.ctex::
+Support.jpg::CompressedTexture2D::7532547399621225256::1770571241::1770571242::1::::<><><>0<>0<>5cc24bc33b9e7b0df4c7f51872cde862<>res://.godot/imported/Support.jpg-ab5d21e3509c2e73d5b690e5261ebb6b.ctex::
+::res://Menu/::1770571326
+menu.tscn::PackedScene::3838282472225712928::1770571326::0::1::::<><><>0<>0<><>::uid://ca7yffok0bbw7::::res://Image/Menu.jpg<>uid://bbog2tog3btx8::::res://Image/Settings2.jpg<>uid://dfk27qfldciiy::::res://Image/Support.jpg<>uid://b8ap6uofg6gfc::::res://Image/Play.jpg
+::res://scripts/::1770568142

@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://buxj7l8h1n4ae"]
+
+[ext_resource type="Texture2D" uid="uid://ca7yffok0bbw7" path="res://Image/Menu.jpg" id="1_8w4re"]
+[ext_resource type="Texture2D" uid="uid://bbog2tog3btx8" path="res://Image/Settings2.jpg" id="2_ofseh"]
+[ext_resource type="Texture2D" uid="uid://dfk27qfldciiy" path="res://Image/Support.jpg" id="3_w6voe"]
+[ext_resource type="Texture2D" uid="uid://b8ap6uofg6gfc" path="res://Image/Play.jpg" id="4_eafcm"]
+[ext_resource type="Texture2D" uid="uid://bsb03muwnb06j" path="res://Image/Exit.jpg" id="5_ofseh"]
+[ext_resource type="Script" uid="uid://b1pk3ehrdlbhn" path="res://scripts/exit.gd" id="6_w6voe"]
+
+[node name="Menu" type="Node2D" unique_id=901149325]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=219635776]
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer" unique_id=1889479232]
+position = Vector2(480, 270)
+texture = ExtResource("1_8w4re")
+
+[node name="Settings" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=273246215]
+offset_left = -132.0
+offset_top = 15.0
+offset_right = 68.0
+offset_bottom = 115.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("2_ofseh")
+
+[node name="Support" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=443958888]
+offset_left = 75.0
+offset_top = 120.0
+offset_right = 275.0
+offset_bottom = 220.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_w6voe")
+
+[node name="Play" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=1097162811]
+offset_left = -305.0
+offset_top = -88.0
+offset_right = -105.0
+offset_bottom = 12.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_eafcm")
+
+[node name="Exit" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=809526466]
+offset_left = -428.0
+offset_top = 91.0
+offset_right = -228.0
+offset_bottom = 191.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("5_ofseh")
+script = ExtResource("6_w6voe")
+
+[connection signal="focus_exited" from="CanvasLayer/Sprite2D/Exit" to="CanvasLayer/Sprite2D/Exit" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Sprite2D/Exit" to="CanvasLayer/Sprite2D/Exit" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Sprite2D/Exit" to="CanvasLayer/Sprite2D/Exit" method="_on_mouse_exited"]
+[connection signal="pressed" from="CanvasLayer/Sprite2D/Exit" to="CanvasLayer/Sprite2D/Exit" method="_on_pressed"]
