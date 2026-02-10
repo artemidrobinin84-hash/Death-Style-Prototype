@@ -17,7 +17,7 @@ Respawn with retained knowledge - learn from each death to perfect your strategy
 적 위치 지식을 유지하며 리스폰 - 매 죽음에서 배워 전략을 완벽하게 다듬으세요
 
 ⚡ **Fast-Paced Combat**  
-Intense, skill-based top-down shooter action with fluid movement  
+Intense, skill-based top-down rouglike action with fluid movement  
 유연한 이동이 있는 기술 기반의 강렬한 탑다운 슈터 액션
 
 🎯 **Tactical Gameplay**  
