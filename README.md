@@ -2,7 +2,7 @@
 
 **Top-down action with a unique resurrection mechanic**
 
-A fast-paced tactical shooter where death is just the beginning. Built with Godot 4.6 featuring retro pixel art in the Aseprite style. Take on the role of an unstoppable warrior who returns stronger after each fall, systematically clearing hostile environments in pursuit of ultimate vengeance.
+A fast-paced rouglike where death is just the beginning. Built with Godot 4.6 featuring retro pixel art in the Aseprite style. Take on the role of an unstoppable warrior who returns stronger after each fall, systematically clearing hostile environments in pursuit of ultimate vengeance.
 
 데스 스타일 - 독특한 부활 메커니즘을 가진 탑다운 액션 슈터
 
