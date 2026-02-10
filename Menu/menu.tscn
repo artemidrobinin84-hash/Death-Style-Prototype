@@ -2,30 +2,31 @@
 
 [ext_resource type="Texture2D" uid="uid://ca7yffok0bbw7" path="res://Image/Menu.jpg" id="1_8w4re"]
 [ext_resource type="Script" uid="uid://bxku2jd3ujtih" path="res://scripts/menu.gd" id="1_eafcm"]
-[ext_resource type="Texture2D" uid="uid://bbog2tog3btx8" path="res://Image/Settings2.jpg" id="2_ofseh"]
+[ext_resource type="Texture2D" uid="uid://gdp5rhd2sogl" path="res://Image/Settings3.jpg" id="3_tf6kh"]
 [ext_resource type="Texture2D" uid="uid://dfk27qfldciiy" path="res://Image/Support.jpg" id="3_w6voe"]
 [ext_resource type="Texture2D" uid="uid://b8ap6uofg6gfc" path="res://Image/Play.jpg" id="4_eafcm"]
-[ext_resource type="Texture2D" uid="uid://bsb03muwnb06j" path="res://Image/Exit.jpg" id="5_ofseh"]
+[ext_resource type="Texture2D" uid="uid://46w1tiwgcj3w" path="res://Image/Exit1.jpg" id="6_tf6kh"]
 [ext_resource type="Script" uid="uid://b1pk3ehrdlbhn" path="res://scripts/exit.gd" id="6_w6voe"]
+[ext_resource type="Texture2D" uid="uid://c6jorttwt1uyh" path="res://Image/SettingsMenu2.jpg" id="8_tf6kh"]
 
 [node name="Menu" type="Node2D" unique_id=901149325]
 script = ExtResource("1_eafcm")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=219635776]
+[node name="menu" type="CanvasLayer" parent="." unique_id=219635776]
 
-[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer" unique_id=1889479232]
+[node name="MenuUi" type="Sprite2D" parent="menu" unique_id=1889479232]
 position = Vector2(480, 270)
 texture = ExtResource("1_8w4re")
 
-[node name="Settings" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=273246215]
+[node name="Settings" type="TextureButton" parent="menu/MenuUi" unique_id=273246215]
 offset_left = -132.0
 offset_top = 15.0
 offset_right = 68.0
 offset_bottom = 115.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("2_ofseh")
+texture_normal = ExtResource("3_tf6kh")
 
-[node name="Support" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=443958888]
+[node name="Support" type="TextureButton" parent="menu/MenuUi" unique_id=443958888]
 offset_left = 75.0
 offset_top = 120.0
 offset_right = 275.0
@@ -33,7 +34,7 @@ offset_bottom = 220.0
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("3_w6voe")
 
-[node name="Play" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=1097162811]
+[node name="Play" type="TextureButton" parent="menu/MenuUi" unique_id=1097162811]
 offset_left = -305.0
 offset_top = -88.0
 offset_right = -105.0
@@ -41,11 +42,37 @@ offset_bottom = 12.0
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("4_eafcm")
 
-[node name="Exit" type="TextureButton" parent="CanvasLayer/Sprite2D" unique_id=809526466]
+[node name="Exit" type="TextureButton" parent="menu/MenuUi" unique_id=809526466]
 offset_left = -428.0
 offset_top = 91.0
 offset_right = -228.0
 offset_bottom = 191.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("5_ofseh")
+texture_normal = ExtResource("6_tf6kh")
 script = ExtResource("6_w6voe")
+
+[node name="Control" type="Control" parent="menu/MenuUi" unique_id=169789288]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -480.0
+offset_top = -270.0
+offset_right = -480.0
+offset_bottom = -270.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="SettingsUi" type="Sprite2D" parent="menu/MenuUi/Control" unique_id=2089848156]
+visible = false
+position = Vector2(480, 270)
+texture = ExtResource("8_tf6kh")
+
+[node name="Button" type="Button" parent="menu/MenuUi/Control/SettingsUi" unique_id=111635634]
+show_behind_parent = true
+offset_left = 381.0
+offset_top = -253.0
+offset_right = 449.0
+offset_bottom = -186.0
+mouse_default_cursor_shape = 2

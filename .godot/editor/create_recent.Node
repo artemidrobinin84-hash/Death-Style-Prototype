@@ -1,7 +1,8 @@
-TextureButton
+Button
 Sprite2D
+Control
 CanvasLayer
+TextureButton
 ParallaxLayer
 Parallax2D
 Label
-Button
