@@ -1,4 +1,4 @@
-![image alt]([Снимок_экрана_2026-02-11_141723.jpg](https://github.com/artemidrobinin84-hash/Death-Style-Prototype/blob/main/Game_Screen.jpg))
+![image alt](https://github.com/artemidrobinin84-hash/Death-Style-Prototype/blob/main/Снимок%20экрана%202026-02-11%20141723.jpg)
 
 Death Style 🔄💀
 Top-down action with a unique resurrection mechanic
