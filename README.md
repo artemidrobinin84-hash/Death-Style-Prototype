@@ -1,3 +1,5 @@
+![Gameplay Screenshot](Снимок_экрана_2026-02-11_141723.jpg)
+
 Death Style 🔄💀
 Top-down action with a unique resurrection mechanic
 
