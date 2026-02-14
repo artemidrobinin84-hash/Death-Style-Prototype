@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://46w1tiwgcj3w" path="res://Image/Exit1.jpg" id="6_tf6kh"]
 [ext_resource type="Script" uid="uid://b1pk3ehrdlbhn" path="res://scripts/exit.gd" id="6_w6voe"]
 [ext_resource type="Texture2D" uid="uid://c6jorttwt1uyh" path="res://Image/SettingsMenu2.jpg" id="8_tf6kh"]
+[ext_resource type="Texture2D" uid="uid://bn7c5f16np8tg" path="res://Image/SupportMenu4.jpg" id="9_mf1wf"]
 
 [node name="Menu" type="Node2D" unique_id=901149325]
 script = ExtResource("1_eafcm")
@@ -76,3 +77,52 @@ offset_top = -253.0
 offset_right = 449.0
 offset_bottom = -186.0
 mouse_default_cursor_shape = 2
+
+[node name="Control2" type="Control" parent="menu/MenuUi" unique_id=2042331251]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -480.0
+offset_top = -270.0
+offset_right = -480.0
+offset_bottom = -270.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="SupportUi" type="Sprite2D" parent="menu/MenuUi/Control2" unique_id=1269168800]
+visible = false
+position = Vector2(474, 284)
+texture = ExtResource("9_mf1wf")
+
+[node name="Button" type="Button" parent="menu/MenuUi/Control2/SupportUi" unique_id=1903605957]
+show_behind_parent = true
+offset_left = 189.0
+offset_top = -128.0
+offset_right = 229.0
+offset_bottom = -79.0
+mouse_default_cursor_shape = 2
+
+[node name="LinkButton" type="LinkButton" parent="menu/MenuUi/Control2/SupportUi" unique_id=1319220833]
+anchors_preset = -1
+anchor_left = 0.025
+anchor_top = 0.319
+anchor_right = 0.39000002
+anchor_bottom = 0.53000003
+offset_left = -240.0
+offset_top = -135.13
+offset_right = -240.20001
+offset_bottom = -135.1
+uri = "https://github.com/artemidrobinin84-hash"
+
+[node name="LinkButton2" type="LinkButton" parent="menu/MenuUi/Control2/SupportUi" unique_id=1919291849]
+anchors_preset = -1
+anchor_left = 0.025
+anchor_top = 0.77400005
+anchor_right = 0.323
+anchor_bottom = 0.9480001
+offset_left = -236.0
+offset_top = -134.98001
+offset_right = -239.04001
+offset_bottom = -134.96002
+uri = "https://github.com/artemidrobinin84-hash/Death-Style-Prototype"
