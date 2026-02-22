@@ -81,6 +81,8 @@ This project is currently under development. All rights reserved.
 
 🔗 Links & Community / 링크 및 커뮤니티
 
+https://name-surename.itch.io/death-style-prototype
+
 https://name-surename.itch.io/
 
 https://t.me/DeathStyleGame
