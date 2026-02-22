@@ -1,0 +1,60 @@
+[gd_resource type="TileSet" format=3 uid="uid://13mnuxag0mg6"]
+
+[ext_resource type="Texture2D" uid="uid://dmx2m2g1hptpm" path="res://Game/dead_style_tileset/Дверь.png" id="1_wgwoi"]
+[ext_resource type="Texture2D" uid="uid://xebr4mkwff1o" path="res://Game/dead_style_tileset/пол.png" id="2_4tncb"]
+[ext_resource type="Texture2D" uid="uid://cufbu3qobw2e0" path="res://Game/dead_style_tileset/Стена1.png" id="3_m3h26"]
+[ext_resource type="Texture2D" uid="uid://cbbvbaphh7g0w" path="res://Game/dead_style_tileset/Стена2.png" id="4_32wm8"]
+[ext_resource type="Texture2D" uid="uid://ccknbec8ng8e0" path="res://Game/dead_style_tileset/Стена.png" id="5_7dq25"]
+[ext_resource type="Texture2D" uid="uid://pme8aihthan0" path="res://Game/dead_style_tileset/Ящик.png" id="6_cmm0y"]
+[ext_resource type="Texture2D" uid="uid://go1rtensri55" path="res://Game/dead_style_tileset/Фон.png" id="7_m430i"]
+[ext_resource type="Texture2D" uid="uid://dlxhxq6bnsxke" path="res://Game/dead_style_tileset/фон2.png" id="8_bg03d"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gp3ej"]
+texture = ExtResource("1_wgwoi")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fo80f"]
+texture = ExtResource("2_4tncb")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dse2b"]
+texture = ExtResource("3_m3h26")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dra5k"]
+texture = ExtResource("4_32wm8")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b68qv"]
+texture = ExtResource("5_7dq25")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1qyd4"]
+texture = ExtResource("6_cmm0y")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t4vps"]
+texture = ExtResource("7_m430i")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i1frt"]
+texture = ExtResource("8_bg03d")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[resource]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_gp3ej")
+sources/1 = SubResource("TileSetAtlasSource_fo80f")
+sources/2 = SubResource("TileSetAtlasSource_dse2b")
+sources/3 = SubResource("TileSetAtlasSource_dra5k")
+sources/4 = SubResource("TileSetAtlasSource_b68qv")
+sources/5 = SubResource("TileSetAtlasSource_1qyd4")
+sources/6 = SubResource("TileSetAtlasSource_t4vps")
+sources/7 = SubResource("TileSetAtlasSource_i1frt")

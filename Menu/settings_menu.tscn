@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bhqycg1qtmrgv"]
+
+[ext_resource type="Texture2D" uid="uid://c6jorttwt1uyh" path="res://Image/SettingsMenu2.jpg" id="1_satsx"]
+
+[node name="SettingsMenu" type="Node2D" unique_id=1727700310]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=215924699]
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer" unique_id=660211833]
+position = Vector2(480, 270)
+texture = ExtResource("1_satsx")

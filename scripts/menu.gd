@@ -6,7 +6,16 @@ func _ready() -> void:
 	_SettingsExit()
 	_Support()
 	_SupportExit()
+	_Play()
 # Called when the node enters the scene tree for the first time.
+func _Play() -> void:
+	$menu/MenuUi/Play.pressed.connect(_on_play_pressed)
+	
+
+
+func _on_play_pressed() -> void:
+	get_tree().change_scene_to_file("res://Game/game.tscn")
+
 
 func _Support() -> void:
 	$menu/MenuUi/Support.pressed.connect(_on_support_pressed)

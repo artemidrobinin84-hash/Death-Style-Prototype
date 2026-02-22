@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://clxt67vibs4wx"]
+
+[ext_resource type="Script" uid="uid://2rj3taqa5dma" path="res://Enemy/bullet.gd" id="1_ibq1y"]
+[ext_resource type="Texture2D" uid="uid://cskidvaxd0xn5" path="res://Enemy/Enemy_Attack_Sprite/Attack_ranged.png" id="2_0nr26"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c4ujx"]
+size = Vector2(2, 1)
+
+[node name="Bullet" type="Area2D" unique_id=1391691353]
+script = ExtResource("1_ibq1y")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1714471992]
+texture = ExtResource("2_0nr26")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=604629901]
+position = Vector2(5, -0.5)
+shape = SubResource("RectangleShape2D_c4ujx")
+
+[node name="LifeTimer" type="Timer" parent="." unique_id=1874309216]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="LifeTimer" to="." method="_on_life_timer_timeout"]

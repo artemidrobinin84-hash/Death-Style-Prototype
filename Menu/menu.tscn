@@ -1,14 +1,15 @@
 [gd_scene format=3 uid="uid://buxj7l8h1n4ae"]
 
-[ext_resource type="Texture2D" uid="uid://ca7yffok0bbw7" path="res://Image/Menu.jpg" id="1_8w4re"]
 [ext_resource type="Script" uid="uid://bxku2jd3ujtih" path="res://scripts/menu.gd" id="1_eafcm"]
-[ext_resource type="Texture2D" uid="uid://gdp5rhd2sogl" path="res://Image/Settings3.jpg" id="3_tf6kh"]
-[ext_resource type="Texture2D" uid="uid://dfk27qfldciiy" path="res://Image/Support.jpg" id="3_w6voe"]
-[ext_resource type="Texture2D" uid="uid://b8ap6uofg6gfc" path="res://Image/Play.jpg" id="4_eafcm"]
-[ext_resource type="Texture2D" uid="uid://46w1tiwgcj3w" path="res://Image/Exit1.jpg" id="6_tf6kh"]
+[ext_resource type="Texture2D" uid="uid://dy8cf77xsl517" path="res://Image/Menu.png" id="2_mf1wf"]
+[ext_resource type="Texture2D" uid="uid://br7a0lgbix1t7" path="res://Image/Settings3.png" id="3_mf1wf"]
+[ext_resource type="Texture2D" uid="uid://crrfvppnxp7pg" path="res://Image/Support.png" id="4_xuj3a"]
+[ext_resource type="Texture2D" uid="uid://blb3sy2hhpeg" path="res://Image/Play.png" id="5_0k1h5"]
+[ext_resource type="Texture2D" uid="uid://5inhbmkhg08f" path="res://Image/Exit1.png" id="6_cotva"]
 [ext_resource type="Script" uid="uid://b1pk3ehrdlbhn" path="res://scripts/exit.gd" id="6_w6voe"]
-[ext_resource type="Texture2D" uid="uid://c6jorttwt1uyh" path="res://Image/SettingsMenu2.jpg" id="8_tf6kh"]
-[ext_resource type="Texture2D" uid="uid://bn7c5f16np8tg" path="res://Image/SupportMenu4.jpg" id="9_mf1wf"]
+[ext_resource type="Texture2D" uid="uid://do0gkejldilop" path="res://Image/SettingsMenu2.png" id="8_2p233"]
+[ext_resource type="Texture2D" uid="uid://b23o4qh1r612s" path="res://Image/SupportMenu4.png" id="9_5s5no"]
+[ext_resource type="AudioStream" uid="uid://bv6d42tey5j3r" path="res://Music/781562__looplicator__50-bpm-industrial-ambient-loop-11619-wav.mp3" id="10_xuj3a"]
 
 [node name="Menu" type="Node2D" unique_id=901149325]
 script = ExtResource("1_eafcm")
@@ -16,8 +17,9 @@ script = ExtResource("1_eafcm")
 [node name="menu" type="CanvasLayer" parent="." unique_id=219635776]
 
 [node name="MenuUi" type="Sprite2D" parent="menu" unique_id=1889479232]
-position = Vector2(480, 270)
-texture = ExtResource("1_8w4re")
+position = Vector2(480, 268.5)
+scale = Vector2(1, 1.0055555)
+texture = ExtResource("2_mf1wf")
 
 [node name="Settings" type="TextureButton" parent="menu/MenuUi" unique_id=273246215]
 offset_left = -132.0
@@ -25,7 +27,7 @@ offset_top = 15.0
 offset_right = 68.0
 offset_bottom = 115.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("3_tf6kh")
+texture_normal = ExtResource("3_mf1wf")
 
 [node name="Support" type="TextureButton" parent="menu/MenuUi" unique_id=443958888]
 offset_left = 75.0
@@ -33,7 +35,7 @@ offset_top = 120.0
 offset_right = 275.0
 offset_bottom = 220.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("3_w6voe")
+texture_normal = ExtResource("4_xuj3a")
 
 [node name="Play" type="TextureButton" parent="menu/MenuUi" unique_id=1097162811]
 offset_left = -305.0
@@ -41,7 +43,7 @@ offset_top = -88.0
 offset_right = -105.0
 offset_bottom = 12.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("4_eafcm")
+texture_normal = ExtResource("5_0k1h5")
 
 [node name="Exit" type="TextureButton" parent="menu/MenuUi" unique_id=809526466]
 offset_left = -428.0
@@ -49,7 +51,7 @@ offset_top = 91.0
 offset_right = -228.0
 offset_bottom = 191.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("6_tf6kh")
+texture_normal = ExtResource("6_cotva")
 script = ExtResource("6_w6voe")
 
 [node name="Control" type="Control" parent="menu/MenuUi" unique_id=169789288]
@@ -68,7 +70,7 @@ mouse_filter = 2
 [node name="SettingsUi" type="Sprite2D" parent="menu/MenuUi/Control" unique_id=2089848156]
 visible = false
 position = Vector2(480, 270)
-texture = ExtResource("8_tf6kh")
+texture = ExtResource("8_2p233")
 
 [node name="Button" type="Button" parent="menu/MenuUi/Control/SettingsUi" unique_id=111635634]
 show_behind_parent = true
@@ -80,6 +82,7 @@ mouse_default_cursor_shape = 2
 
 [node name="Control2" type="Control" parent="menu/MenuUi" unique_id=2042331251]
 layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -480.0
@@ -93,7 +96,7 @@ mouse_filter = 2
 [node name="SupportUi" type="Sprite2D" parent="menu/MenuUi/Control2" unique_id=1269168800]
 visible = false
 position = Vector2(474, 284)
-texture = ExtResource("9_mf1wf")
+texture = ExtResource("9_5s5no")
 
 [node name="Button" type="Button" parent="menu/MenuUi/Control2/SupportUi" unique_id=1903605957]
 show_behind_parent = true
@@ -126,3 +129,7 @@ offset_top = -134.98001
 offset_right = -239.04001
 offset_bottom = -134.96002
 uri = "https://github.com/artemidrobinin84-hash/Death-Style-Prototype"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=198336711]
+stream = ExtResource("10_xuj3a")
+autoplay = true

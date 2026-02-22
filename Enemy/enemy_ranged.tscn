@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://dfcpwp2jdwsk0"]
+
+[ext_resource type="Script" uid="uid://mp1y3wxlwq1u" path="res://Enemy/enemy.gd" id="1_rx1i0"]
+[ext_resource type="PackedScene" uid="uid://clxt67vibs4wx" path="res://Enemy/bullet.tscn" id="2_ieawp"]
+[ext_resource type="Texture2D" uid="uid://dd515w36wq80m" path="res://Enemy/Enemy_Sprite/Enemy_ranged_sprite.png" id="2_uimeu"]
+[ext_resource type="Texture2D" uid="uid://cskidvaxd0xn5" path="res://Enemy/Enemy_Attack_Sprite/Attack_ranged.png" id="3_ieawp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uidti"]
+radius = 9.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uimeu"]
+radius = 71.29691
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ieawp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ieawp")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ieawp"]
+radius = 9.433981
+
+[node name="Enemy_ranged" type="Node2D" unique_id=1401424867]
+
+[node name="Enemy_ranged" type="CharacterBody2D" parent="." unique_id=230347175]
+script = ExtResource("1_rx1i0")
+bullet_scene = ExtResource("2_ieawp")
+enemy_type = 1
+attack_damage = 25
+attack_cooldown = 0.2
+attack_range = 150.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Enemy_ranged" unique_id=1344230010]
+texture = ExtResource("2_uimeu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_ranged" unique_id=1594301021]
+position = Vector2(3, 1)
+shape = SubResource("CircleShape2D_uidti")
+
+[node name="DetectionArea" type="Area2D" parent="Enemy_ranged" unique_id=1980355466]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_ranged/DetectionArea" unique_id=338185464]
+position = Vector2(2, 1)
+scale = Vector2(2, 2)
+shape = SubResource("CircleShape2D_uimeu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Enemy_ranged" unique_id=1657909627]
+visible = false
+position = Vector2(13, 2)
+sprite_frames = SubResource("SpriteFrames_ieawp")
+animation = &"attack"
+
+[node name="ShootPosition" type="Marker2D" parent="Enemy_ranged" unique_id=1713336217]
+
+[node name="Area2D" type="Area2D" parent="Enemy_ranged" unique_id=21260378]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_ranged/Area2D" unique_id=1805623014]
+position = Vector2(3, 1)
+shape = SubResource("CircleShape2D_ieawp")
+
+[connection signal="body_entered" from="Enemy_ranged/DetectionArea" to="Enemy_ranged" method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="Enemy_ranged/DetectionArea" to="Enemy_ranged" method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="Enemy_ranged/Area2D" to="Enemy_ranged" method="_on_area_2d_body_entered"]

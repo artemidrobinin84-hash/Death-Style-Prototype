@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://b7rjn2gsp0h0f"]
+
+[ext_resource type="Script" uid="uid://mp1y3wxlwq1u" path="res://Enemy/enemy.gd" id="1_2pb1h"]
+[ext_resource type="Texture2D" uid="uid://1mknikl1lxjm" path="res://Enemy/Enemy_Sprite/Enemy_melee_sprite.png" id="2_ncf7h"]
+[ext_resource type="Texture2D" uid="uid://bhy6dgelqjcn1" path="res://Enemy/Enemy_Attack_Sprite/Attack_melee.png" id="3_m6jha"]
+[ext_resource type="Texture2D" uid="uid://cqselfmrovedu" path="res://Enemy/Enemy_Attack_Sprite/Attack_melee2.png" id="4_glvfu"]
+[ext_resource type="Texture2D" uid="uid://crf28slqd0n2h" path="res://Enemy/Enemy_Attack_Sprite/Attack_melee3.png" id="5_0rspp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xjnqo"]
+radius = 10.049875
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2pb1h"]
+radius = 75.059975
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_px1sc"]
+animations = [{
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("3_m6jha")
+}, {
+"duration": 0.5,
+"texture": ExtResource("4_glvfu")
+}, {
+"duration": 0.5,
+"texture": ExtResource("5_0rspp")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ncf7h"]
+radius = 15.0
+
+[node name="Enemy_melee" type="Node2D" unique_id=618578526]
+
+[node name="Enemy_melee" type="CharacterBody2D" parent="." unique_id=1101018826]
+script = ExtResource("1_2pb1h")
+max_health = 100
+attack_damage = 50
+attack_cooldown = 0.5
+speed = 60.0
+attack_range = 25.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Enemy_melee" unique_id=771060830]
+position = Vector2(2.9802322e-07, 0)
+scale = Vector2(1.1666666, 1.2500001)
+texture = ExtResource("2_ncf7h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_melee" unique_id=1386680272]
+position = Vector2(2, 1)
+shape = SubResource("CircleShape2D_xjnqo")
+
+[node name="DetectionArea" type="Area2D" parent="Enemy_melee" unique_id=1191821265]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_melee/DetectionArea" unique_id=770733555]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_2pb1h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Enemy_melee" unique_id=169884326]
+visible = false
+position = Vector2(4, 0)
+sprite_frames = SubResource("SpriteFrames_px1sc")
+animation = &"attack"
+frame = 2
+frame_progress = 1.0
+
+[node name="Area2D" type="Area2D" parent="Enemy_melee/AnimatedSprite2D" unique_id=1701535501]
+position = Vector2(-4, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_melee/AnimatedSprite2D/Area2D" unique_id=2102821583]
+position = Vector2(3, 1)
+shape = SubResource("CircleShape2D_ncf7h")
+
+[connection signal="body_entered" from="Enemy_melee/DetectionArea" to="Enemy_melee" method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="Enemy_melee/DetectionArea" to="Enemy_melee" method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="Enemy_melee/AnimatedSprite2D/Area2D" to="Enemy_melee" method="_on_area_2d_body_entered"]
