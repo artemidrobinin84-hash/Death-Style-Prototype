@@ -90,6 +90,7 @@ https://t.me/DeathStyleGame
 https://t.me/KoreaCultureKGSP
 
 "They can kill me a thousand times. I'll keep coming back."
+
 "그들은 나를 천 번 죽일 수 있어. 난 계속 돌아올 테니까."
 
 Want to contribute or have suggestions? Feel free to open an Issue or Discussion on GitHub!
